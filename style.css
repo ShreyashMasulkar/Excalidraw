@@ -7,10 +7,6 @@
     overflow: hidden;
     user-select: none;
 }
-
-
-
-
 .menu button,
 .btn button {
     outline: none;
@@ -20,23 +16,19 @@
     border-radius: 10px;
     background-color: #ececf4;
 }
-
 .menu button > i{
     color: #555555;
     font-size: 14px;
 }
-
 .menu button:hover,
 .btn button:hover{
     background-color: hsl(244, 100%, 97%);
 }
-
 .btn {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
 .btn .user {
     padding: 0.9rem;
     color: #ffffff;
@@ -83,7 +75,6 @@
 #main{
   background-color: rgb(244, 250, 255);
 }
-
 .nav {
   width: 100%;
   display: flex;
@@ -104,7 +95,6 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border: 1px solid #eeeeee;
 }
-
 .tool-box .tool-container{
   height: 50px;
   display: flex;
@@ -112,7 +102,6 @@
   padding: 1rem;
   gap: 5px;
 }
-
 .hr_divider{
   width: 1px;
   height: 1.5rem;
@@ -120,7 +109,6 @@
   background-color: #d6d6d6;
   margin: 0 0.25rem;
 }
-
 .tool{
   padding: 12px;
   display: flex;
@@ -130,16 +118,13 @@
   outline: none;
   background: none;
 }
-
 .tool:hover{
   background-color: #f5f5f5;
 }
-
 .tool i{
   color: #343437;
   font-size: 14px;
 }
-
 .tool .diamond {
   transform: rotate(45deg);
 }
@@ -148,14 +133,12 @@
     gap: 10px;
     margin-top: 10px;
 }
-
 .bg-color .option{
     height: 25px;
     width: 25px;
     background-color: red;
     border-radius: 3px;
-} 
-
+}
 .bg-color .option:nth-child(1){
     background-color: #000;
 }
@@ -174,18 +157,15 @@
 .bg-color .option:nth-child(7){
     background-color: #000;
 }
-
 .option #color-picker, 
 .option #bgColor-picker{
     opacity: 0;
 }
-
 .stroke-width {
     display: flex;
     gap: 10px;
     flex-direction: column;
 }
-
 .stroke-width button {
     padding: 12px;
     border-radius: 8px;
@@ -194,11 +174,9 @@
     outline: none;
     background-color: #ececf4;
 }
-
 .stroke-width button:hover {
     background-color: hsl(244, 100%, 97%);
 }
-
 .stroke-width button > i{
     display: block;
 }
@@ -249,7 +227,6 @@
     justify-content: center;
     align-items: center;
   }
-
   .zoom-div {
     height: 36px;
     background-color: #ececf4;
